@@ -1,0 +1,1 @@
+function realtimeClock(){var d=new Date,a=d.getHours(),b=d.getMinutes(),c=d.getSeconds();a=a<10?"0"+a:a,b=b<10?"0"+b:b,c=c<10?"0"+c:c,document.getElementById("clock").innerHTML=a+":"+b+":"+c,setTimeout(realtimeClock,1e3)}

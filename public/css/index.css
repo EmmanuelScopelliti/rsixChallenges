@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(to top left, #0c2d40 0%, #f3e1c4 100%);
+  background: -webkit-linear-gradient(to top left, #0c2d40 0%, #f3e1c4 100%);
+  background: -moz-linear-gradient(to top left, #0c2d40 0%, #f3e1c4 100%);
+  background: -o-linear-gradient(to top left, #0c2d40 0%, #f3e1c4 100%);
+  background: -ms-linear-gradient(to top left, #0c2d40 0%, #f3e1c4 100%);
+  height: 100vh;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #0c2d40;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  margin: -8px;
+}
+.navbar--menu-link {
+  color: #f3e1c4;
+  padding: 5px 0 0 10px;
+}
+.navbar--menu-link.navbar--link {
+  font-size: 32px;
+}
+.navbar--menu-link .link {
+  color: #f3e1c4;
+  text-decoration: none;
+}
+.navbar--menu-link .link:hover {
+  color: #f3e1c4;
+  text-decoration: underline;
+}
+.navbar--menu-link.is--selected .link {
+  color: #f3e1c4;
+  text-decoration: underline;
+}
+
+.is--right {
+  margin-left: auto;
+  padding-right: 2.5rem;
+}
+
+#clock {
+  display: inline-block;
+}
